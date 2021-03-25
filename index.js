@@ -24,7 +24,6 @@ const skyStyle = {
     left: '0',
     backgroundImage: 'url(SkyReady.png)',
     backgroundRepeat: 'no-repeat',
-    // backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
     backgroundSize: 'cover'
 }
@@ -157,19 +156,8 @@ Object.assign(flower.style, flowerStyle);
 flower.innerHTML = `<canvas id='flowerDraw' width="300px" height="500px" style="background-color:" ></canvas>`;
 const flowerDraw = document.getElementById('flowerDraw');
 
-// const canvaStyle = {
-//     width: '300px',
-//     height: '300px',
-//     backgroundColor: 'orange'
-//     // position: 'absolute',
-//     // left:'50%',
-//     // top:'50%',
-//     // transform: 'translate(-50%, -50%)'
-// }
 
-// Object.assign(flowerDraw.style, canvaStyle);
-
-// Flwoers center
+// Flowers center
 
 let ctx = flowerDraw.getContext('2d');
 
