@@ -113,8 +113,6 @@ const growndStyle = {
     position: 'absolute',
     left:'0',
     bottom:'0',
-    borderTopRightRadius: '20%',
-    borderTopLeftRadius: '20%',
     backgroundImage: 'url(groundTexture.png)',
     backgroundRepeat: 'repeat',
     backgroundPosition: '',
@@ -136,8 +134,8 @@ const flowerStyle = {
     backgroundColor: '',
     position: 'absolute',
     left:'50%',
-    top:'0',
-    transform: 'translate(-50%, -75%)'
+    top:'-325px',
+    transform: 'translate(-50%, 0)'
 }
 
 Object.assign(flower.style, flowerStyle);
@@ -162,9 +160,9 @@ const flowerDraw = document.getElementById('flowerDraw');
 let ctx = flowerDraw.getContext('2d');
 
 ctx.beginPath();
-ctx.arc(150,150,50,0,2*Math.PI);
-ctx.fillStyle = "orange";
-ctx.strokeStyle = "black";
+ctx.arc(150,150,35,0,2*Math.PI);
+ctx.fillStyle = "black";
+ctx.strokeStyle = "purple";
 ctx.stroke();
 ctx.fill();
 
@@ -173,8 +171,8 @@ ctx.fill();
 let ctx1 = flowerDraw.getContext('2d');
 
 ctx1.beginPath();
-ctx1.arc(70,150,30,0,2*Math.PI);
-ctx.fillStyle = 'white'
+ctx1.arc(90,150,20,0,2*Math.PI);
+ctx.fillStyle = 'purple'
 ctx1.strokeStyle = "black";
 ctx1.stroke();
 ctx.fill();
@@ -185,8 +183,8 @@ ctx.fill();
 let ctx2 = flowerDraw.getContext('2d');
 
 ctx2.beginPath();
-ctx2.arc(230,150,30,0,2*Math.PI);
-ctx.fillStyle = 'white'
+ctx2.arc(210,150,20,0,2*Math.PI);
+ctx.fillStyle = 'purple'
 ctx1.strokeStyle = "black";
 ctx1.stroke();
 ctx.fill();
@@ -196,8 +194,8 @@ ctx.fill();
 let ctx3 = flowerDraw.getContext('2d');
 
 ctx3.beginPath();
-ctx3.arc(150,70,30,0,2*Math.PI);
-ctx.fillStyle = 'white'
+ctx3.arc(150,90,20,0,2*Math.PI);
+ctx.fillStyle = 'purple'
 ctx1.strokeStyle = "black";
 ctx1.stroke();
 ctx.fill();
@@ -208,8 +206,8 @@ ctx.fill();
 let ctx4 = flowerDraw.getContext('2d');
 
 ctx4.beginPath();
-ctx4.arc(150,230,30,0,2*Math.PI);
-ctx.fillStyle = 'white'
+ctx4.arc(150,210,20,0,2*Math.PI);
+ctx.fillStyle = 'purple'
 ctx1.strokeStyle = "black";
 ctx1.stroke();
 ctx.fill();
@@ -219,8 +217,8 @@ ctx.fill();
 let ctx5 = flowerDraw.getContext('2d');
 
 ctx5.beginPath();
-ctx5.arc(93,93,30,0,2*Math.PI);
-ctx.fillStyle = 'white'
+ctx5.arc(107,107,20,0,2*Math.PI);
+ctx.fillStyle = 'purple'
 ctx1.strokeStyle = "black";
 ctx1.stroke();
 ctx.fill();
@@ -231,8 +229,8 @@ ctx.fill();
 let ctx6 = flowerDraw.getContext('2d');
 
 ctx6.beginPath();
-ctx6.arc(205,93,30,0,2*Math.PI);
-ctx.fillStyle = 'white'
+ctx6.arc(193,105,20,0,2*Math.PI);
+ctx.fillStyle = 'purple'
 ctx1.strokeStyle = "black";
 ctx1.stroke();
 ctx.fill();
@@ -242,8 +240,8 @@ ctx.fill();
 let ctx7 = flowerDraw.getContext('2d');
 
 ctx7.beginPath();
-ctx7.arc(206,207,30,0,2*Math.PI);
-ctx.fillStyle = 'white'
+ctx7.arc(193,193,20,0,2*Math.PI);
+ctx.fillStyle = 'purple'
 ctx1.strokeStyle = "black";
 ctx1.stroke();
 ctx.fill();
@@ -254,8 +252,8 @@ ctx.fill();
 let ctx8 = flowerDraw.getContext('2d');
 
 ctx8.beginPath();
-ctx8.arc(93,205,30,0,2*Math.PI);
-ctx.fillStyle = 'white'
+ctx8.arc(107,193,20,0,2*Math.PI);
+ctx.fillStyle = 'purple'
 ctx1.strokeStyle = "black";
 ctx1.stroke();
 ctx.fill();
@@ -265,7 +263,7 @@ ctx.fill();
 let ctxBranch = flowerDraw.getContext('2d');
 
 ctxBranch.beginPath();
-ctxBranch.moveTo(150, 260);
+ctxBranch.moveTo(150, 230);
 ctx.lineTo(150, 450);
 // ctxBranch.quadraticCurveTo(25, 25, 25, 300);
 ctxBranch.strokeStyle = "black";
