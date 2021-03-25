@@ -1,7 +1,6 @@
 # Flower
 
-Here I practice and experiment with.
-I have created a combination of...
+Here I experiment and I have created a combination of...
 
 Javascript DOM,
 Javascript CANVAS,
