@@ -1,16 +1,4 @@
 // ----------------------------------------------------
-
-// const a = document;
-// const aStyle = {
-//     margin:0,
-//     padding:0,
-//     boxSizing: 'border-box'
-// }
-
-// Object.assign(a.style, aStyle);
-
-
-
 //  Style the <body> element...
 
 const body = document.getElementsByTagName('body')[0];
