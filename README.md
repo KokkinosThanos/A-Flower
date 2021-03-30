@@ -1,10 +1,10 @@
 # Flower
 
-Here I practice and experiment with...
+Here I am experimenting and I have created a combination with...
 
 Javascript DOM,
 Javascript CANVAS,
 CSS keyframes
 
-Like this I made a landscape with a flower!
+The final result is a landscape with a flower!
 
