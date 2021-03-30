@@ -4,11 +4,41 @@
     box-sizing: border-box;
 }
 
-#sun{
-    background-color: rgba(6, 133, 251, 0.63);
+
+
+/* --- ***   Sky colors   *** --- */
+
+@keyframes SkyColors{
+
+    0%{
+        background-color: rgb(37, 56, 73);
+    }
+
+    25%{
+        background-color: rgb(88, 143, 190);
+    }
+
+    50%{
+        background-color: rgb(120, 184, 240);
+    }
+
+    75%{
+        background-color: rgb(88, 143, 190);
+    }
+
+    100%{
+        background-color: rgb(37, 56, 73);
+    }
+
+
 }
 
-@keyframes banner{
+
+
+
+/* --- ***   Sun movement   *** --- */
+
+@keyframes SunMovement{
     0%{
         left: 5%;
         top:30%;
