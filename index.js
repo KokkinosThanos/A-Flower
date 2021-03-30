@@ -151,8 +151,8 @@ const growndStyle = {
     bottom:'0',
     backgroundImage: 'url(Grass.png)',
     backgroundRepeat: 'no-repeat',
-    backgroundPosition: '',
-    backgroundSize: 'cover'
+    backgroundPosition: 'center',
+    backgroundSize: '100% 100%'
 };
 
 Object.assign(grownd.style, growndStyle);
