@@ -6,7 +6,7 @@
 const body = document.getElementsByTagName('body')[0];
 
 const bodyStyle = {
-     backgroundColor:'blue'
+     backgroundColor:'rgb(124, 177, 212)'
 }
 
  Object.assign(body.style, bodyStyle);
@@ -24,10 +24,6 @@ const skyStyle = {
     position:'absolute',
     top: '0',
     left: '0',
-    backgroundImage: 'url(SkyReady.png)',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    backgroundSize: 'cover',
     animation: 'SkyColors 30s infinite'
 }
 
@@ -145,13 +141,10 @@ const grownd = document.getElementById('grownd');
 const growndStyle = {
     width: '100%',
     height: '40%',
-    backgroundColor: '#082704',
+    backgroundColor: 'rgb(52, 109, 40)',
     position: 'absolute',
     left:'0',
     bottom:'0',
-    backgroundImage: 'url(Grass.png)',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
     backgroundSize: '100% 100%'
 };
 

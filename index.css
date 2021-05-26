@@ -1,71 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
 
 /* --- ***   Sky colors   *** --- */
 
-@keyframes SkyColors{
+@keyframes SkyColors {
+  0% {
+    background-color: rgb(37, 56, 73);
+  }
 
-    0%{
-        background-color: rgb(37, 56, 73);
-    }
+  25% {
+    background-color: rgb(88, 143, 190);
+  }
 
-    25%{
-        background-color: rgb(88, 143, 190);
-    }
+  50% {
+    background-color: rgb(120, 184, 240);
+  }
 
-    50%{
-        background-color: rgb(120, 184, 240);
-    }
+  75% {
+    background-color: rgb(88, 143, 190);
+  }
 
-    75%{
-        background-color: rgb(88, 143, 190);
-    }
-
-    100%{
-        background-color: rgb(37, 56, 73);
-    }
-
-
+  100% {
+    background-color: rgb(37, 56, 73);
+  }
 }
-
-
-
 
 /* --- ***   Sun movement   *** --- */
 
-@keyframes SunMovement{
-    0%{
-        left: 5%;
-        top:30%;
-        background-color: orangered;
-    }
+@keyframes SunMovement {
+  0% {
+    left: 5%;
+    top: 30%;
+    background-color: orangered;
+  }
 
-    25%{
-        left: 25%;
-        top:20%;
-        background-color: orange;
-    }
+  25% {
+    left: 25%;
+    top: 20%;
+    background-color: orange;
+  }
 
-    50%{
-        left: 50%;
-        top:15%;
-        background-color: yellow;
-    }
+  50% {
+    left: 50%;
+    top: 15%;
+    background-color: yellow;
+  }
 
-    75%{
-        left: 75%;
-        top:20%;
-        background-color: orange;
-    }
+  75% {
+    left: 75%;
+    top: 20%;
+    background-color: orange;
+  }
 
-    100%{
-        left: 95%;
-        top:30%;
-        background-color: orangered;
-    }
+  100% {
+    left: 95%;
+    top: 30%;
+    background-color: orangered;
+  }
 }
