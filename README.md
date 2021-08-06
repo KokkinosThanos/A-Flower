@@ -2,7 +2,8 @@
 
 Looks like drawing in to an HTML document!
 
-Web Technologies
+---------------------
+-- Web Technologies  -
 
   - Html
   - Css ( CSS keyframes )
