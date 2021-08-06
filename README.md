@@ -1,6 +1,6 @@
 # The Landscape
 
-Looks like drawing in to an HTML document!
+Like drawing in to an HTML document!
 
 ---------------------
 Web Technologies
