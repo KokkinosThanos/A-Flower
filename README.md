@@ -1,7 +1,11 @@
 # The Landscape
 
-Drawing the document!
+Looks like drawing an empty HTML document!
 
-Experimenting with Javascript CANVAS, Javascript DOM and CSS.
+Web Technologies
+
+  - Html
+  - Css ( CSS keyframes )
+  - Javascript ( Javascript CANVAS, Javascript DOM )
 
 
