@@ -1,6 +1,6 @@
 # The Landscape
 
-Like drawing in to an HTML document!
+Practicing with Javascript CANVAS
 
 ---------------------
 Web Technologies
